@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 
 IMAGE_PATH = "ex1-26.png"
-CONFIDENCE = 0.05
+CONFIDENCE = 0.11
 
 
 def main() -> None:
