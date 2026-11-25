@@ -242,7 +242,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--conf",
         type=float,
-        default=0.05,
+        default=0.2,
         help="YOLO confidence. Increase this to reduce false detections.",
     )
     parser.add_argument(
